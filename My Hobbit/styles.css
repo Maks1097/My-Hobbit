@@ -1,0 +1,50 @@
+.header{
+    height: 50px;
+    background-color: #101010;
+    color: white;
+    padding: 10px 1px 25px 10px;
+    }
+.logo-container{
+    position: absolute;
+    font-size: 30x;
+    padding: 10px 10px 1px 10px;
+    color: white;
+    }
+.navigation{
+    padding: 25px 10px 10px 10px;
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    background-color: #101010;
+}
+
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+}
+
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+.container {
+  overflow: hidden; /* Clear float */
+}
+
+.image {
+  float: left;
+  margin-right: 30px; /* Регулируйте величину отступа в зависимости от ваших предпочтений */
+}
+
+.text {
+  overflow: hidden; /* Clear float */
+}
